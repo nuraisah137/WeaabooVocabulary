@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="org.d3ifcool.weeaboovocabulary.MainActivity">
+    <!--Pengaturan waktu-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:visibility="gone">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/jam"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:text="@string/waktu"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/colorDefault"-->
+    <!--android:textSize="48sp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="@string/batas"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/colorDefault"-->
+    <!--android:textSize="48sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/menit"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:text="@string/waktu"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/colorDefault"-->
+    <!--android:textSize="48sp" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:visibility="gone">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/reset"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/colorBar"-->
+    <!--android:text="@string/reset"-->
+    <!--android:textColor="@color/colorBtnReset" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/save"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@color/colorDefault"-->
+    <!--android:text="@string/save"-->
+    <!--android:textColor="@color/colorBtnReset" />-->
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:background="@color/colorDefault"-->
+    <!--android:visibility="gone">-->
+
+    <!--</View>-->
+    <!--Pengaturan waktu-->
+    <!--Menampilkan jadwal Pelafalan Setiap harinya-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/list_jadwal"
+        android:layout_marginTop="16dp">
+    </ListView>
+    <!--Menampilkan jadwal Pelafalan Setiap harinya-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/time_picker_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+

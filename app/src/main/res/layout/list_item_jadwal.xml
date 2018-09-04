@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon_list"
+        android:src="@mipmap/ic_month"
+        android:padding="2dp"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/list_jam"
+            android:text="@string/waktu"
+            android:textAlignment="center"
+            android:textColor="@color/colorDefault"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="32dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/batas"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorDefault"
+            android:text="@string/batas"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/list_menit"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/colorDefault"
+            android:text="@string/waktu"/>
+
+    </LinearLayout>
+
+</LinearLayout>

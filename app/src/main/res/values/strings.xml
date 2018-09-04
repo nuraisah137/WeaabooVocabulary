@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weeaboo Vocabulary</string>
+    <string name="batas">:</string>
+    <string name="waktu">00</string>
+    <string name="kosakata">KOSAKATA\n HARI INI</string>
+    <string name="reset">RESET</string>
+    <string name="save">SAVE</string>
+
+    <string name="category_schedule">Set Schedule</string>
+    <string name="category_timeline">Timeline</string>
+
+    <string name="tanggal">14 Maret 2018</string>
+    <string name="waktuTimeLine">10:30</string>
+</resources>
